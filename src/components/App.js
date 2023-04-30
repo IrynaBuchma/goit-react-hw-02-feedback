@@ -35,17 +35,7 @@ export class App extends Component {
 
     return (
       <div
-        style={{
-          marginBottom: 20,
-          padding: 20,
-          height: '100vh',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          fontSize: 40,
-          color: '#010101',
-        }}
+  
       > 
       <h2>qwe</h2>
         {/* <Section title="Please leave feedback">
