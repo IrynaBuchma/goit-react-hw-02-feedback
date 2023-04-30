@@ -1,8 +1,8 @@
 import {Component} from "react";
-import Statistics from './Statistics';
+/* import Statistics from './Statistics';
 import FeedbackOptions from './FeedbackOptions';
 import Section from './Section';
-import Notification from "./Notification";
+import Notification from "./Notification"; */
 
 class App extends Component {
   
@@ -47,7 +47,8 @@ class App extends Component {
           color: '#010101',
         }}
       > 
-        <Section title="Please leave feedback">
+      <h2>qwe</h2>
+        {/* <Section title="Please leave feedback">
             <FeedbackOptions 
                 options={Object.keys(this.state)} 
                 onLeaveFeedback={this.addStatisticValue}></FeedbackOptions>
@@ -64,7 +65,7 @@ class App extends Component {
             : (
           <Notification message="There is no feedback"></Notification>
           )}
-        </Section>
+        </Section> */}
       </div>   
     );
   }
