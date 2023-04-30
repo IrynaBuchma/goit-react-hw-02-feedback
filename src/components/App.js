@@ -4,9 +4,9 @@ import FeedbackOptions from './FeedbackOptions';
 import Section from './Section';
 import Notification from "./Notification"; */
 
-class App extends Component {
+export class App extends Component {
   
-  state = {
+ /*  state = {
     good: 0,
     neutral: 0,
     bad: 0
@@ -25,13 +25,13 @@ class App extends Component {
   countPositiveFeedbackPercentage() {
     const{ good } = this.state;
     return Math.round((good * 100) / this.countTotalFeedback()) || 0;
-  } 
+  }  */
 
   render() {
 
-    const { good, neutral, bad} = this.state;
+    /* const { good, neutral, bad} = this.state;
     const total = this.countTotalFeedback();
-    const positiveFeedbackPercentage = this.countPositiveFeedbackPercentage();
+    const positiveFeedbackPercentage = this.countPositiveFeedbackPercentage(); */
 
     return (
       <div
@@ -71,4 +71,3 @@ class App extends Component {
   }
 };
 
-export {App};
